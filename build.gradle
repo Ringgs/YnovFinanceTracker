@@ -44,6 +44,10 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+    testImplementation("org.testfx:testfx-core:4.0.17")
+    testImplementation("org.testfx:testfx-junit5:4.0.17")
+    testImplementation("org.hamcrest:hamcrest:2.1")
 }
 
 test {

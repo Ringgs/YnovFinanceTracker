@@ -95,7 +95,7 @@ public class Database {
 
         String dbPrefix = "jdbc:sqlite:";
         Connection connection;
-        log.debug(dbPrefix + osFolder + "/" + location);
+
         try {
             connection = DriverManager.getConnection(dbPrefix + osFolder + "/" + location);
         } catch (SQLException exception) {
